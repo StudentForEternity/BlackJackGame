@@ -1,6 +1,6 @@
 let player = 
 {
-  name : "Alex",
+  name : "Guest",
   chips : 100
 };
 
