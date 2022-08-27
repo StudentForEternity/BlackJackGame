@@ -18,6 +18,8 @@ h1 {
 #message-el {
     
     font-style: italic;
+    font-size: large;
+    font-weight: bold;
 }
 
 button

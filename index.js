@@ -54,16 +54,16 @@ function renderGame()
 
   if (sum <= 20)
    {
-    message = "Wana draw again?";
+    message = "Would you like to draw again?";
   } 
   else if (sum === 21)
    {
-    message = "Blackjack! You won!";
+    message = "Blackjack! You have won!";
     hasBlackJack = true;
   } 
   else
    {
-    message = "You are out of the game";
+    message = "Sorry. You are out of the game!";
     isAlive = false;
   }
 
