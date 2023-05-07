@@ -1,36 +1,47 @@
-
-
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("Green.jpg");
-    background-size: cover;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  background-color: rgb(3, 73, 3);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 h1 {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 #message-el {
-    
-    font-style: italic;
-    font-size: large;
-    font-weight: bold;
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
 }
 
-button
-{
-    color: #016f32;
-    width: 150px;
-    background-color: goldenrod;
-    font-weight: bolder;
-    border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+button {
+  color: #016f32;
+  width: 150px;
+  background-color: goldenrod;
+  font-weight: bolder;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
 
+button:hover,
+button:focus {
+  cursor: pointer;
+  background-color: orange;
+}
+.container {
+  border: 3px solid rgba(255, 208, 0, 0.877);
+  background-image: url("Green.jpg");
+  background-size: cover;
+  padding: 5em;
+  border-radius: 15px;
 }
